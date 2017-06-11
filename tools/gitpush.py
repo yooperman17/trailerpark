@@ -83,7 +83,7 @@ if __name__ == '__main__':
 	if password == None:
 		password = getInput('Git Password: ')
 	
-	deleteRepository()
+	#deleteRepository()
 	commit(username, password)
 	
 	print('\n')
