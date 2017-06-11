@@ -1,0 +1,15 @@
+
+[B]1.1.2 (2017.06.04)[/B]
+- Changed the label for shows with more than 99 unwatched episodes.
+- Added tools shortcut to Kodi slide menu in Bubbles.
+
+[B]1.1.1 (2017.05.12)[/B]
+- Fixed version numbering.
+
+[B]1.1.0 (2017.05.11)[/B]
+- Updated main menu top bar.
+- Added public IP information to menu bar.
+- Support for new Bubbles icons in the resources addon.
+
+[B]1.0.0 (2017.05.01)[/B]
+- Initial release.
