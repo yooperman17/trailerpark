@@ -1,4 +1,7 @@
 
+[B]2.1.0 (2017.06.12)[/B]
+- Moved to the new servers.
+
 [B]2.0.0 (2017.06.04)[/B]
 - Added new EasyNews, website, backup, network, speedtest, VPN, and donations icons.
 - Removed dark edges on Quasar and EasyNews icons.

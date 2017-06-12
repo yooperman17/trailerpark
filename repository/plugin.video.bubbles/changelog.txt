@@ -1,4 +1,31 @@
 
+[B]2.1.0 (2017.06.12)[/B]
+- Fixed metadata bug causing automatic playback not to start.
+- Fixed various sections under the kids menu.
+- Improved local caching.
+- Fixed the debrid cache settings.
+- Fixed show air label settings.
+- Improved air day and time formatting.
+- Added support for release type detection.
+- Added support for upload user detection.
+- Fixed debrid cache inspection bug.
+- Fixed the next page bug for IMDb lists.
+- Added movie and show logos and metacache bug fix.
+- Added preset play option to the context menu.
+- Updated Premiumize hosters.
+- Added Premiumize usage information for the Premiumize provider.
+- Fixed incorrect title matching.
+- Fixed Premiumize provder season pack flag.
+- Improved stream detection in debrid downloads.
+- Improved auto removal of items in debrid accounts.
+- VPN detection based on ISP or VPN address mask.
+- Better season pack support.
+- Improved sorting of streams.
+- Fixed debrid cache label on multiple runs.
+- Added repositories as extensions.
+- New server updates.
+- Updated splash dialogs.
+
 [B]2.0.1 (2017.06.04)[/B]
 - VPN detection fix.
 

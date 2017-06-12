@@ -1,4 +1,8 @@
 
+[B]1.1.3 (2017.06.12)[/B]
+- Added MPAA certification for movies.
+- Repository changes.
+
 [B]1.1.2 (2017.06.04)[/B]
 - Changed the label for shows with more than 99 unwatched episodes.
 - Added tools shortcut to Kodi slide menu in Bubbles.
