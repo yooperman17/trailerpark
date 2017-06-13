@@ -40,6 +40,9 @@ if __name__ == '__main__':
 	print('***************************************************')
 	print('\n')
 	
+	getInput("Is the VPN connected?")
+	getInput("Are you sure the VPN is connected?")
+	
 	commit()
 	
 	print('\n')

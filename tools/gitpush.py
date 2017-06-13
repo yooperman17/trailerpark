@@ -77,6 +77,9 @@ if __name__ == '__main__':
 		print('**                  TrailerPark                  **')
 		print('***************************************************')
 		print('\n')
+		
+		getInput("Is the VPN connected?")
+		getInput("Are you sure the VPN is connected?")
 	
 	if username == None:
 		username = getInput('Git Username: ')
