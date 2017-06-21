@@ -1,4 +1,26 @@
 
+[B]2.1.1 (2017.06.19)[/B]
+- Fixed bug with Show Type interface setting.
+- Repository addons are now required by Bubbles.
+- Fixed the pairing dialog close bug.
+- Improved provider loading and initialization time.
+- Fixed loader in Trakt manager.
+- Support for multiple watches on Trakt.
+- Restructured download directory browsing.
+- Fixed incorrect air day.
+- Added season pack stream size estimation.
+- Fixed Premiumize provider for season packs.
+- Better Premiumize season pack detection.
+- Major improvements on metadata processing.
+- Removed HDRip from CAM video quality detection.
+- Fixed clipboard failures.
+- Added support for manual torrent and usenet downloads.
+- Added support for Premiumize abd RealDebrid downloads.
+- Added notification when no movies or shows are found.
+- Removed collections from the kids section.
+- Add Premiumize download only if it is not already on the list.
+- Better screenshot quality.
+
 [B]2.1.0 (2017.06.12)[/B]
 - Fixed metadata bug causing automatic playback not to start.
 - Fixed various sections under the kids menu.

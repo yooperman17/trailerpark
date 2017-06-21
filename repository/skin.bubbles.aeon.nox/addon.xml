@@ -22,7 +22,7 @@
 		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, Premiumize, RealDebrid, EasyNews, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
 		<platform>all</platform>
 		<license>GPL 3.0</license>
-		<website>http://bubbles4kodi.com</website>
+		<website>https://bubbles4kodi.com</website>
 		<forum>https://www.tvaddons.ag/forums/skin-depot/58302-bubbles-aeon-nox.html</forum>
 		<assets>
 			<icon>icon.png</icon>
