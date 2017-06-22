@@ -1,5 +1,5 @@
 
-[B]2.1.1 (2017.06.19)[/B]
+[B]2.2.0 (2017.06.22)[/B]
 - Fixed bug with Show Type interface setting.
 - Repository addons are now required by Bubbles.
 - Fixed the pairing dialog close bug.
@@ -19,7 +19,18 @@
 - Added notification when no movies or shows are found.
 - Removed collections from the kids section.
 - Add Premiumize download only if it is not already on the list.
+- Improved scraping time by reducing database access.
+- Improved the scraping process and database.
+- Automatically delete old unusable entries from the provider database.
+- Indicate when an episode is not in a season pack.
 - Better screenshot quality.
+- Summary indicator removed from plot.
+
+[B]2.1.2 (2017.06.22)[/B]
+- Temporary version reversal.
+
+[B]2.1.1 (2017.06.21)[/B]
+- Wrong version upload.
 
 [B]2.1.0 (2017.06.12)[/B]
 - Fixed metadata bug causing automatic playback not to start.

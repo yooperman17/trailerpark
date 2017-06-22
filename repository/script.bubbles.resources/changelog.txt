@@ -1,7 +1,8 @@
 
-[B]2.1.1 (2017.06.19)[/B]
+[B]2.2.0 (2017.06.22)[/B]
 - Updated download icons.
 - Renamed show icons.
+- Added legal icon.
 
 [B]2.1.0 (2017.06.12)[/B]
 - Moved to the new servers.
