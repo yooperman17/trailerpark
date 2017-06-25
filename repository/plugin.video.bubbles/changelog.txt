@@ -1,4 +1,8 @@
 
+[B]2.2.1 (2017.06.25)[/B]
+- Show future episodes and seasons.
+- Support for menu shortcuts.
+
 [B]2.2.0 (2017.06.22)[/B]
 - Fixed bug with Show Type interface setting.
 - Repository addons are now required by Bubbles.

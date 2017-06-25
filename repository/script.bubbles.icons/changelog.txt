@@ -1,4 +1,7 @@
 
+[B]2.2.1 (2017.06.25)[/B]
+- Added shortcut icons.
+
 [B]2.2.0 (2017.06.22)[/B]
 - Updated download icons.
 - Renamed show icons.
