@@ -1,4 +1,23 @@
 
+[B]2.2.3 (2017.07.02)[/B]
+- Fixed provider initialization.
+- Fixed CAM and SCR filters.
+- Changed the quality detection of EasyNews streams.
+- Fixed the video quality detection and ordering.
+- Copying stream links now does not resolve the link.
+- Updated downloader.
+- Update existing and added new external providers.
+- Separate label for debrid links.
+- Color gradient for local, premium, direct, and debrid labels.
+
+[B]2.2.2 (2017.06.30)[/B]
+- Major reduction in provider initialization time.
+- Trakt scrobble and playback progress support.
+- Fixed subtitle language setting problem.
+- Improved subtitle detection based on file name, uploader, and release.
+- Added subtitle selection modes and notifications.
+- Updated play preset process.
+
 [B]2.2.1 (2017.06.25)[/B]
 - Show future episodes and seasons.
 - Support for menu shortcuts.
