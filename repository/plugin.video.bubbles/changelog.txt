@@ -1,4 +1,10 @@
 
+[B]2.2.4 (2017.07.06)[/B]
+- Fixed Premiumize item deletion.
+- Added genre filter support for providers.
+- Updated sources utilities.
+- Fixed TorrentLeech seed count.
+
 [B]2.2.3 (2017.07.02)[/B]
 - Fixed provider initialization.
 - Fixed CAM and SCR filters.
