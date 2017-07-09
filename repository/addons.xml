@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.bubbles" version="2.2.4" name="Bubbles" provider-name="Bubbles">
+<addon id="plugin.video.bubbles" version="2.2.5" name="Bubbles" provider-name="Bubbles">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 
 		<import addon="repository.bubbles.1" version="2.0.0" />
 		<import addon="repository.bubbles.2" version="2.0.0" />
 		<import addon="repository.bubbles.3" version="2.0.0" />
-		<import addon="script.bubbles.resources" version="2.2.1" />
+		<import addon="script.bubbles.resources" version="2.2.5" />
 		<import addon="script.bubbles.artwork" version="2.0.0" />
 		<import addon="script.bubbles.binaries" version="2.0.0" optional="true" />
 		<import addon="script.bubbles.icons" version="2.2.1" optional="true" />
@@ -163,7 +163,7 @@
 	</extension>
 </addon>
 
-<addon id="script.bubbles.resources" version="2.2.1" name="Bubbles Resources" provider-name="Bubbles">
+<addon id="script.bubbles.resources" version="2.2.5" name="Bubbles Resources" provider-name="Bubbles">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>

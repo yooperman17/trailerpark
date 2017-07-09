@@ -1,4 +1,11 @@
 
+[B]2.2.5 (2017.07.09)[/B]
+- Fixed the freezing bug on Kodi exit.
+- Fixed incorrect season pack detection.
+- Hide loader if nothing was found.
+- Fixed local retrieval of show results.
+- Updated donations.
+
 [B]2.2.4 (2017.07.06)[/B]
 - Fixed Premiumize item deletion.
 - Added genre filter support for providers.
