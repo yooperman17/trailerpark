@@ -1,4 +1,7 @@
 
+[B]2.2.7 (2017.07.10)[/B]
+- Fixed timeout for provider cache.
+
 [B]2.2.6 (2017.07.10)[/B]
 - Major threading bug fixed.
 - Better search of titles with symbols.
