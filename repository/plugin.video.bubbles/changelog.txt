@@ -1,4 +1,8 @@
 
+[B]2.2.6 (2017.07.10)[/B]
+- Major threading bug fixed.
+- Better search of titles with symbols.
+
 [B]2.2.5 (2017.07.09)[/B]
 - Fixed the freezing bug on Kodi exit.
 - Fixed incorrect season pack detection.
