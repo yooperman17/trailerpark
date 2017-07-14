@@ -1,4 +1,9 @@
 
+[B]2.3.1 (2017.07.14)[/B]
+- Fixed playback bug with stream dialog.
+- Rewritten stream dialog process.
+- Updated donations.
+
 [B]2.3.0 (2017.07.13)[/B]
 - Fixed the preemptive stop of debrid cache inspection.
 - Changed the scraping process and order.
