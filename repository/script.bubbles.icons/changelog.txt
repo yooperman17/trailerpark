@@ -1,4 +1,7 @@
 
+[B]2.3.2 (2017.07.30)[/B]
+- Added exact search icons.
+
 [B]2.2.1 (2017.06.25)[/B]
 - Added shortcut icons.
 

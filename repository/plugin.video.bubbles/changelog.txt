@@ -1,4 +1,13 @@
 
+[B]2.3.2 (2017.07.30)[/B]
+- Better episode detection in season packs.
+- Fixed incorrect season pack detection.
+- Search for exact terms and file names.
+- Termination detection for manual or automatic playback.
+- Filter streams according to dubbed audio.
+- Filter streams according to release type and uploader.
+- Updated donations.
+
 [B]2.3.1 (2017.07.14)[/B]
 - Fixed playback bug with stream dialog.
 - Rewritten stream dialog process.
