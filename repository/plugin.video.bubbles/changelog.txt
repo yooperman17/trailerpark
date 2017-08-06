@@ -1,4 +1,10 @@
 
+[B]2.3.3 (2017.08.06)[/B]
+- Support for custom URLs for providers.
+- Fixed the priority sorting option.
+- Disable colors in stream labels.
+- Control over the padding of stream labels.
+
 [B]2.3.2 (2017.07.30)[/B]
 - Better episode detection in season packs.
 - Fixed incorrect season pack detection.

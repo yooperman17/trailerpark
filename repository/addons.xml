@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.bubbles" version="2.3.2" name="Bubbles" provider-name="Bubbles">
+<addon id="plugin.video.bubbles" version="2.3.3" name="Bubbles" provider-name="Bubbles">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 
