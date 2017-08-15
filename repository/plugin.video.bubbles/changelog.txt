@@ -1,4 +1,7 @@
 
+[B]2.4.1 (2017.08.15)[/B]
+- Fixed the Premiumize link length infinite loop.
+
 [B]2.4.0 (2017.08.15)[/B]
 - Added local Kodi library integration.
 - Added a setting to access the Premiumize API using GET requests.
