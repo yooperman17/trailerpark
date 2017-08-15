@@ -1,4 +1,15 @@
 
+[B]2.4.0 (2017.08.15)[/B]
+- Added local Kodi library integration.
+- Added a setting to access the Premiumize API using GET requests.
+- Improved the automatic scripts during Kodi startup.
+- Fixed the non-found poviders for the custom location.
+- Fixed Premiumize usage label and filters.
+- Updated the Premiumize hoster list.
+- Fixed Premiumize hoster domain detection.
+- Update downloader and added navigation for other downloads.
+- Many small changes, updates, and bug fixes.
+
 [B]2.3.3 (2017.08.06)[/B]
 - Support for custom URLs for providers.
 - Fixed the priority sorting option.
