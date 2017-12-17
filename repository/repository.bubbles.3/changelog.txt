@@ -1,4 +1,7 @@
 
+[B]2.5.0 (2017.12.17)[/B]
+- New version upgrade.
+
 [B]2.0.0 (2017.06.12)[/B]
 - Moved to the new servers.
 

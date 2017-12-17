@@ -427,7 +427,6 @@
 	</extension>
 </addon>
 
-
 <!-- TRAKT MODULE -->
 <addon id="script.module.trakt" name="trakt.py" version="2.13.0" provider-name="Fuzeman, Razzeee">
 	<requires>
@@ -447,6 +446,24 @@
 		<website>https://github.com/fuzeman/trakt.py</website>
 		<source>https://github.com/Razzeee/script.module.trakt</source>
 		<email></email>
+	</extension>
+</addon>
+
+<!-- URLLIB3 -->
+<addon id="script.module.urllib.3" version="1.22.0" name="Python Urllib 3" provider-name="Urllib">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.service" library="__init__.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Python Urllib 3 for Kodi</summary>
+		<description lang="en">Python Urllib 3 extension for Kodi</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<license>MIT</license>
+		<website>https://urllib3.readthedocs.io</website>
+		<forum>https://urllib3.readthedocs.io</forum>
 	</extension>
 </addon>
 

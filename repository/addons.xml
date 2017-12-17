@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.bubbles" version="2.4.1" name="Bubbles" provider-name="Bubbles">
+<addon id="plugin.video.bubbles" version="2.5.0" name="Bubbles" provider-name="Bubbles">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 
-		<import addon="repository.bubbles.1" version="2.0.0" />
-		<import addon="repository.bubbles.2" version="2.0.0" />
-		<import addon="repository.bubbles.3" version="2.0.0" />
+		<import addon="repository.bubbles.1" version="2.5.0" />
+		<import addon="repository.bubbles.2" version="2.5.0" />
+		<import addon="repository.bubbles.3" version="2.5.0" />
 		<import addon="script.bubbles.resources" version="2.4.0" />
 		<import addon="script.bubbles.artwork" version="2.0.0" />
 		<import addon="script.bubbles.binaries" version="2.0.0" optional="true" />
@@ -52,7 +52,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.bubbles.1" version="2.0.0" name="Bubbles Repository 1" provider-name="Bubbles">
+<addon id="repository.bubbles.1" version="2.5.0" name="Bubbles Repository 1" provider-name="Bubbles">
 	<extension point="xbmc.addon.repository" name="Bubbles Repository 1">
 		<dir>
 			<info compressed="false">https://github.com/trailerpark/trailerpark/raw/master/repository/common/addons.xml</info>
@@ -74,7 +74,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.bubbles.2" version="2.0.0" name="Bubbles Repository 2" provider-name="Bubbles">
+<addon id="repository.bubbles.2" version="2.5.0" name="Bubbles Repository 2" provider-name="Bubbles">
 	<extension point="xbmc.addon.repository" name="Bubbles Repository Mirror 2">
 		<dir>
 			<info compressed="false">https://bitbucket.org/trailerpark/trailerpark/raw/HEAD/repository/common/addons.xml</info>
@@ -85,6 +85,9 @@
 		<checksum>https://bitbucket.org/trailerpark/trailerpark/raw/HEAD/repository/addons.xml.md5</checksum>
 		<datadir zip="true">https://bitbucket.org/trailerpark/trailerpark/raw/HEAD/repository/</datadir>
 	</extension>
+	<requires>
+		<import addon="script.module.urllib.3" version="1.22.0" />
+	</requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Bubbles Secondary Repository</summary>
 		<description lang="en">The Bubbles repository for the addon, resources, extensions, and external addons. Any of the Bubbles mirror repositories can be used for installation and updates.</description>
@@ -96,7 +99,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.bubbles.3" version="2.0.0" name="Bubbles Repository 3" provider-name="Bubbles">
+<addon id="repository.bubbles.3" version="2.5.0" name="Bubbles Repository 3" provider-name="Bubbles">
 	<extension point="xbmc.addon.repository" name="Bubbles Repository 3">
 		<dir>
 			<info compressed="false">https://gitlab.com/trailerpark/trailerpark/raw/HEAD/repository/common/addons.xml</info>
@@ -107,6 +110,9 @@
 		<checksum>https://gitlab.com/trailerpark/trailerpark/raw/HEAD/repository/addons.xml.md5</checksum>
 		<datadir zip="true">https://gitlab.com/trailerpark/trailerpark/raw/HEAD/repository/</datadir>
 	</extension>
+	<requires>
+		<import addon="script.module.urllib.3" version="1.22.0" />
+	</requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Bubbles Tertiary Repository</summary>
 		<description lang="en">The Bubbles repository for the addon, resources, extensions, and external addons. Any of the Bubbles mirror repositories can be used for installation and updates.</description>
