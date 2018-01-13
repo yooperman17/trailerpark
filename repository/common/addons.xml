@@ -351,7 +351,7 @@
 </addon>
 
 <!-- TRAKT -->
-<addon id="script.trakt" name="Trakt" version="3.1.11" provider-name="Trakt.tv, Razzeee">
+<addon id="script.trakt" name="Trakt" version="3.1.12" provider-name="Trakt.tv, Razzeee">
 	<requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
@@ -413,13 +413,10 @@
 		<website>http://trakt.tv</website>
 		<email></email>
 		<source>https://github.com/trakt/script.trakt</source>
-		<news>- Allow exclusions of plugins or scripts
-  - Updates for MythTv integration
-  - Allow to unrate an item on Trakt (only via integration)
-  - Added some more tests</news>
+		<news>- Improved id matching for krypton+</news>
     <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
         <screenshot>resources/image-01.png</screenshot>
         <screenshot>resources/image-02.png</screenshot>
         <screenshot>resources/image-03.png</screenshot>
@@ -428,29 +425,33 @@
 </addon>
 
 <!-- TRAKT MODULE -->
-<addon id="script.module.trakt" name="trakt.py" version="2.13.0" provider-name="Fuzeman, Razzeee">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.requests" version="2.12.4"/>
-		<import addon="script.module.six" version="1.9.0"/>
-		<import addon="script.module.arrow" version="0.6.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Python interface for the trakt.tv API</summary>
-		<description>Packed for Kodi from https://github.com/fuzeman/trakt.py</description>
-		<platform>all</platform>
-		<language></language>
-		<license>MIT</license>
-		<forum></forum>
-		<website>https://github.com/fuzeman/trakt.py</website>
-		<source>https://github.com/Razzeee/script.module.trakt</source>
-		<email></email>
-	</extension>
+<addon id="script.module.trakt"
+       name="trakt.py"
+       version="2.14.1"
+       provider-name="Fuzeman, Razzeee">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" version="2.12.4"/>
+	<import addon="script.module.six" version="1.9.0"/>
+	<import addon="script.module.arrow" version="0.6.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python interface for the trakt.tv API</summary>
+    <description>Packed for Kodi from https://github.com/fuzeman/trakt.py</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/fuzeman/trakt.py</website>
+    <source>https://github.com/Razzeee/script.module.trakt</source>
+    <email></email>
+  </extension>
 </addon>
 
 <!-- URLLIB3 -->
-<addon id="script.module.urllib.3" version="1.22.1" name="Python Urllib 3" provider-name="Urllib">
+<addon id="script.module.urllib.3" version="1.22.2" name="Python Urllib 3" provider-name="Urllib">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -578,7 +579,7 @@
 </addon>
 
 <!-- YOUTUBE -->
-<addon id="plugin.video.youtube" name="YouTube" version="5.4.0" provider-name="bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.4.5" provider-name="bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -590,25 +591,14 @@
 	<extension point="xbmc.python.module" library="resources/lib/" />
 	<extension point="xbmc.addon.metadata">
         <news>
+[fix] tighten regex for routing, resolving incorrect routing
+[add] mpeg-dash support for live content (requires inputstream.adaptive >= 2.0.12)
+[add] add route to update api keys
+[fix/upd] refactor subtitles ** subtitles setting will be reset
+[fix/upd] add My Subscriptions (Filtered) to dual login requirements
+[fix/upd] only show Browse Channels when logged in
 [upd] Greek strings [Twilight0]
 [upd] Polish strings [Etharr]
-[upd] Finnish strings [teemue]
-[upd] Spanish strings [roliverosc]
-[fix/upd] resolve "Error Contents: 'q'" error [horstepipe]
-[fix/upd] resolve Play All/Play from here not starting playback
-[fix/upd] resolve playlists starting on second item
-[fix/upd] allow dash in quality choices
-[fix/upd] set content to files for menus, resolves mouse/scrolling
-[fix/upd] fix cipher
-[fix/upd] increase search history limit to 200
-[fix/upd] storage db
-[add] Safe Search to Settings -> General
-[add] Thumbnail size to Settings -> General
-[add] Auto-play suggested [mehdilauters]
-[add] Automatic subtitles [Uukrull]
-[add] My Subscriptions (Filtered) - whitelist/blacklist version of My Subscriptions [chhe]
-[add] module extension point:
-    add-ons can now add plugin.video.youtube dependency and resolve youtube video id's or make v3 api requests using the youtube plugin
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -643,7 +633,7 @@
 		<forum>http://forum.kodi.tv/showthread.php?tid=267160</forum>
 		<website>http://www.youtube.com</website>
 		<email>ytplugin at datanet dot ws</email>
-		<source>https://github.com/Kolifanes/plugin.video.youtube</source>
+		<source>https://github.com/jdf76/plugin.video.youtube</source>
 	</extension>
 </addon>
 
